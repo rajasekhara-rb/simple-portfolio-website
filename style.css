@@ -542,6 +542,18 @@ body {
     .tab-titles .tab-links {
         margin: 10px 0;
     }
+
+    .skill-list {
+        grid-template-columns: 1fr;
+    }
+
+    .tools {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
@@ -583,6 +595,18 @@ body {
         flex-direction: row;
         font-size: 20px;
     }
+
+    .skill-list {
+        grid-template-columns: 1fr;
+    }
+
+    .tools {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (min-width:992px) {
@@ -617,5 +641,17 @@ body {
     .tab-titles {
         flex-direction: row;
         font-size: 20px;
+    }
+
+    .skill-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tools {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .projects-list {
+        grid-template-columns: repeat(3, 1fr);
     }
 }

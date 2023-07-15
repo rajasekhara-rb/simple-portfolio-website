@@ -14,14 +14,14 @@ function openTab(tabName) {
     document.getElementById(tabName).classList.add('active-tab');
 
 }
-
+openTab('certifications');
 //open and close menu
-let sideMenu = document.getElementById("sideMenu");
+// let sideMenu = document.getElementById("sideMenu");
 
-function openMenu() {
-    sideMenu.style.right = "0"
-}
+// function openMenu() {
+//     sideMenu.style.right = "0"
+// }
 
-function closeMenu() {
-    sideMenu.style.right = "-200px"
-}
+// function closeMenu() {
+//     sideMenu.style.right = "-200px"
+// }
